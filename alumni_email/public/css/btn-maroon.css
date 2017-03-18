@@ -1,0 +1,46 @@
+/* blog.koalite.com/bbg/ */
+.btn-maroon { 
+  color: #ffffff; 
+  background-color: #7B1113; 
+  border-color: #6E0F11; 
+} 
+ 
+.btn-maroon:hover, 
+.btn-maroon:focus, 
+.btn-maroon:active, 
+.btn-maroon.active, 
+.open .dropdown-toggle.btn-maroon { 
+  color: #ffffff; 
+  background-color: #88282a; 
+  border-color: #6E0F11; 
+} 
+ 
+.btn-maroon:active, 
+.btn-maroon.active, 
+.open .dropdown-toggle.btn-maroon { 
+  background-image: none; 
+} 
+ 
+.btn-maroon.disabled, 
+.btn-maroon[disabled], 
+fieldset[disabled] .btn-maroon, 
+.btn-maroon.disabled:hover, 
+.btn-maroon[disabled]:hover, 
+fieldset[disabled] .btn-maroon:hover, 
+.btn-maroon.disabled:focus, 
+.btn-maroon[disabled]:focus, 
+fieldset[disabled] .btn-maroon:focus, 
+.btn-maroon.disabled:active, 
+.btn-maroon[disabled]:active, 
+fieldset[disabled] .btn-maroon:active, 
+.btn-maroon.disabled.active, 
+.btn-maroon[disabled].active, 
+fieldset[disabled] .btn-maroon.active { 
+  background-color: #7B1113; 
+  border-color: #6E0F11; 
+} 
+ 
+.btn-maroon .badge { 
+  color: #7B1113; 
+  background-color: #ffffff; 
+}

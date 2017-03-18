@@ -1,0 +1,6 @@
+.boxed-fields {
+  background: #eee;
+}
+.boxed-fields > .panel-body {
+  padding-bottom: 5px;
+}

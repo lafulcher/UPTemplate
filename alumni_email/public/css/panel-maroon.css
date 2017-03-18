@@ -1,0 +1,18 @@
+.panel-maroon {
+  border-color: #7B1113;
+}
+.panel-maroon > .panel-heading {
+  color: #fff;
+  background-color: #7B1113;
+  border-color: #7B1113;
+}
+.panel-maroon > .panel-heading + .panel-collapse > .panel-body {
+  border-top-color: #7B1113;
+}
+.panel-maroon > .panel-heading .badge {
+  color: #7B1113;
+  background-color: #fff;
+}
+.panel-maroon > .panel-footer + .panel-collapse > .panel-body {
+  border-bottom-color: #7B1113;
+}

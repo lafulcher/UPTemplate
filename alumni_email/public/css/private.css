@@ -1,0 +1,88 @@
+html {
+    overflow-y: scroll;
+}
+
+body {
+	padding-top: 70px;
+	padding-bottom: 20px;
+}
+
+/* https://github.com/twbs/bootstrap/issues/14040 */
+
+body.modal-open {
+	overflow-y: auto !important;
+	padding-right: 0 !important;
+}
+
+.modal-scrollbar-measure {
+	overflow: hidden;
+}
+
+/* end of 14040 */
+
+.brand-img {
+	width: 50px;
+	height: 20px;
+	background-image: url('../img/logo-small.png');
+	background-position: bottom;
+}
+
+.navbar-brand:hover .brand-img {
+	background-position: 0 0;
+}
+
+.no-bottom-margin {
+	margin-bottom: 0;
+}
+
+.no-top-margin {
+	margin-top: 0;
+}
+
+.table-actions thead tr th:last-child {
+	background: #eee;
+}
+
+.table-actions tbody tr td:last-child {
+	text-align: center;
+}
+
+.table-actions tbody tr td:last-child a, .table-actions tbody tr td:last-child span {
+	margin-left: 10px;
+}
+
+td a:link, td a:visited, td a:hover, td a:focus, td a:active {
+	text-decoration: none;
+}
+
+.dl-horizontal dt {
+	text-align: left;
+}
+
+.dl-horizontal dd {
+	word-wrap: break-word;
+}
+
+.pagination li a, .pagination li span {
+	margin-bottom: 1px;
+}
+
+.aligned-list ol, .aligned-list ul {
+	padding-left: 15px;
+}
+
+.aligned-list ul.list-unstyled {
+	padding-left: 0;
+}
+
+.btn-row a, .btn-row button {
+	margin-bottom: 15px;
+}
+
+.search-form .form-group, .search-form .btn {
+	margin-bottom: 15px;
+}
+
+.zoomable, .non-zoomable {
+	border: 1px solid #ccc;
+}

@@ -1,0 +1,18 @@
+.panel-green {
+  border-color: #014421;
+}
+.panel-green > .panel-heading {
+  color: #fff;
+  background-color: #014421;
+  border-color: #014421;
+}
+.panel-green > .panel-heading + .panel-collapse > .panel-body {
+  border-top-color: #014421;
+}
+.panel-green > .panel-heading .badge {
+  color: #014421;
+  background-color: #fff;
+}
+.panel-green > .panel-footer + .panel-collapse > .panel-body {
+  border-bottom-color: #014421;
+}

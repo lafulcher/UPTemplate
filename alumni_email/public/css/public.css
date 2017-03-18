@@ -1,0 +1,16 @@
+html {
+    overflow-y: scroll;
+}
+
+body {
+    padding-top: 0;
+	padding-bottom: 20px;
+}
+
+.no-top-margin {
+	margin-top: 0;
+}
+
+.no-bottom-margin {
+	margin-bottom: 0;
+}
